@@ -1,0 +1,37 @@
+.hero {
+  display: flex;
+  gap: 4.5625rem;
+  background: url("../../assets/images/bg_gradient_1.png") #fff 50% / cover
+    no-repeat;
+  padding: 8rem 18.75rem;
+
+  .hero__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .hero__text {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+
+      .hero__title {
+        color: var(--text-color);
+        font-family: var(--font-family);
+        font-size: 4rem;
+        font-weight: 600;
+      }
+
+      .hero__description {
+        color: var(--text-color);
+        font-family: var(--font-family);
+        font-size: 1.5rem;
+        font-weight: 400;
+      }
+    }
+  }
+
+  .hero__image {
+    border-radius: 0.5rem;
+  }
+}
