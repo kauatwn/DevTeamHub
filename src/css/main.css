@@ -3,3 +3,5 @@
 @import "base/reset.css";
 
 @import "components/header.css";
+
+@import "pages/home.css";
