@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  height: 6.25rem;
+  padding: 0 18.75rem;
+  top: 0;
+  position: sticky;
+  background-color: #fff;
+
+  .header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    a {
+      text-decoration: none;
+    }
+
+    .header__logo {
+      display: flex;
+      gap: 1.5rem;
+      align-items: center;
+
+      .header__logo-text {
+        color: var(--primary-color);
+        font-family: "Mulish", sans-serif;
+        font-weight: bold;
+        font-size: 1.125rem;
+        line-height: 1.5rem;
+        user-select: none;
+      }
+    }
+
+    .header__menu {
+      display: flex;
+      list-style-type: none;
+      gap: 3rem;
+
+      a {
+        color: #000;
+        font-size: 1rem;
+        font-weight: 500;
+      }
+    }
+  }
+}
