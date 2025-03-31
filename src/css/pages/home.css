@@ -1,8 +1,21 @@
 .hero {
   display: flex;
   gap: 4.5625rem;
-  background: url("../../assets/images/bg_gradient_1.png") #fff 50% / cover
-    no-repeat;
+  background-image: linear-gradient(
+    to right,
+    rgba(212, 143, 254, 0.4),
+    rgba(212, 143, 254, 0.4),
+    rgba(215, 145, 248, 0.4),
+    rgba(220, 148, 240, 0.4),
+    rgba(228, 153, 230, 0.4),
+    rgba(235, 160, 220, 0.4),
+    rgba(242, 170, 200, 0.4),
+    rgba(245, 180, 185, 0.4),
+    rgba(247, 195, 175, 0.4),
+    rgba(240, 210, 170, 0.4),
+    rgba(235, 225, 180, 0.4),
+    rgba(234, 254, 198, 0.4)
+  );
   padding: 8rem 18.75rem;
 
   .hero__content {
@@ -17,17 +30,19 @@
 
       .hero__title {
         color: var(--text-color);
-        font-family: var(--font-family);
         font-size: 4rem;
         font-weight: 600;
       }
 
       .hero__description {
         color: var(--text-color);
-        font-family: var(--font-family);
         font-size: 1.5rem;
         font-weight: 400;
       }
+    }
+
+    .button--primary {
+      width: fit-content;
     }
   }
 
