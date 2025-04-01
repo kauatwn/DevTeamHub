@@ -23,7 +23,7 @@
 
       .header__logo-text {
         color: var(--primary-color);
-        font-family: "Mulish", sans-serif;
+        font-family: var(--logo-font-family);
         font-weight: bold;
         font-size: 1.125rem;
         line-height: 1.5rem;
@@ -45,7 +45,7 @@
 
     .header__buttons {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: repeat(2, 1fr);
       gap: 1.5rem;
     }
   }
