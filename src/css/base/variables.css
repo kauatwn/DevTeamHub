@@ -1,6 +1,14 @@
 :root {
   --primary-color: #6d54cf;
-  --text-color: #292929;
+  --text-primary-color: #292929;
 
   --font-family: "Work Sans", sans-serif;
+  --logo-font-family: "Mulish", sans-serif;
+
+  --gradient-colors: rgba(212, 143, 254, 0.4) 0%, rgba(212, 143, 254, 0.4) 10%,
+    rgba(215, 145, 248, 0.4) 20%, rgba(220, 148, 240, 0.4) 30%,
+    rgba(228, 153, 230, 0.4) 40%, rgba(235, 160, 220, 0.4) 45%,
+    rgba(242, 170, 200, 0.4) 50%, rgba(245, 180, 185, 0.4) 60%,
+    rgba(247, 195, 175, 0.4) 70%, rgba(240, 210, 170, 0.4) 80%,
+    rgba(235, 225, 180, 0.4) 90%, rgba(234, 254, 198, 0.4) 100%;
 }
